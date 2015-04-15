@@ -2,7 +2,7 @@
 This readme explains how all of the scripts work and how they are connected.  
 
 ##Script Description
-The R script called run_analysis.R that does the following: 
+The R script called run_analysis.R does the following: 
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -13,12 +13,8 @@ The R script called run_analysis.R that does the following:
 ##Requirements
 The R script has the following requirements:
 
-###Data
-1. The following [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) should be downloaded
-2. The data source should be unzipped to your working directory. A <B>UCI HAR Dataset</B> folder should be created in the working directory.
-
-###R Libraries
-1. The <B>reshape2</B> library is required
+1. The following [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) should be downloaded and unzipped to your working directory. A <B>UCI HAR Dataset</B> folder should be created in the working directory.
+2. The <B>reshape2</B> library
 
 ##Operation of script
 1. The script can be run with the command in R Studio: source('./run_analysis.R')
