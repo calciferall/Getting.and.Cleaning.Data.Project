@@ -17,7 +17,7 @@ The dataset includes the following files:
 
 ###General Files
 
-* 'README.txt'
+* 'README.txt’: Describes all the other data files
 
 * 'features_info.txt': Shows information about the variables used on the feature vector.
 
