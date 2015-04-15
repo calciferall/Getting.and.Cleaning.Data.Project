@@ -49,7 +49,7 @@ The following transforms were done to satisfy the following requirements:
   * Created the test data set: X_test.txt, y_test.txt, subject_test.txt
   * Combined the train and test data set 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-  * Include only column data with: 
+  * Include only column data in combined data set with: 
     * mean/std words in the column names (features.txt)
     * y_train/test (activity)
     * subject_train/test (subject)
