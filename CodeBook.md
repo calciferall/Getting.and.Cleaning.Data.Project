@@ -45,16 +45,16 @@ The dataset includes the following files:
 The following transforms were done to satisfy the following requirements:
 
 1. Merges the training and the test sets to create one data set.
-* Created the train data set: X_train.txt, y_train.txt, subject_train.txt
-* Created the test data set: X_test.txt, y_test.txt, subject_test.txt
-* Combined the train and test data set 
+  * Created the train data set: X_train.txt, y_train.txt, subject_train.txt
+  * Created the test data set: X_test.txt, y_test.txt, subject_test.txt
+  * Combined the train and test data set 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-* Include only column data with mean/std words in the column names (features.txt), y_train/test, and subject_train/test 
+  * Include only column data with mean/std words in the column names (features.txt), y_train/test, and subject_train/test 
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive activity names.
-* Use activity_labels.txt as a key for y_train/test column data
+  * Use activity_labels.txt as a key for y_train/test column data
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-* Transpose combined data set so each mean/std column data is now a unique row
-* Find mean for each unique mean/std column, y_train/test, and subject_train/test combination
+  * Transpose combined data set so each mean/std column data is now a unique row
+  * Find mean for each unique mean/std column, y_train/test, and subject_train/test combination
 
     
