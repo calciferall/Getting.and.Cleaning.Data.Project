@@ -20,7 +20,7 @@ The R script has the following requirements:
 ###R Libraries
 1. The <B>reshape2</B> library is required
 
-##Output
+##Operation of script
 1. The script can be run with the command in R Studio: source('./run_analysis.R')
 2. It will output a file called tidy.txt:
   * In the working directory
