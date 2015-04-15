@@ -15,30 +15,46 @@ A full description is available at the site where the data was obtained:
 ##Dataset description
 The dataset includes the following files:
 
+###General Files
+
 * 'README.txt'
 
 * 'features_info.txt': Shows information about the variables used on the feature vector.
 
-* 'features.txt': List of all features.
+* 'features.txt': List of all features. (Column names)
 
 * 'activity_labels.txt': Links the class labels with their activity name.
 
 ###Train Dataset
 
-* 'train/X_train.txt': Training set.
+* 'train/X_train.txt': Training experiment set.
 
-* 'train/y_train.txt': Training labels.
+* 'train/y_train.txt': Class Label for each training experiment.
 
 * 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ###Test Dataset
 
-* 'test/X_test.txt': Test set.
+* 'test/X_test.txt': Test experiment set.
 
-* 'test/y_test.txt': Test labels.
+* 'test/y_test.txt': Class Label for each test experiment.
 
 * ‘test/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ##Transform
+The following transforms were done to satisfy the following requirements:
+
+1. Merges the training and the test sets to create one data set.
+* Created the train data set: X_train.txt, y_train.txt, subject_train.txt
+* Created the test data set: X_test.txt, y_test.txt, subject_test.txt
+* Combined the train and test data set 
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+* Include only column data with mean/std words in the column names (features.txt), y_train/test, and subject_train/test 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive activity names.
+* Use activity_labels.txt as a key for y_train/test column data
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Transpose combined data set so each mean/std column data is now a unique row
+* Find mean for each unique mean/std column, y_train/test, and subject_train/test combination
 
     
