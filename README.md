@@ -13,7 +13,7 @@ The R script called run_analysis.R does the following:
 ##Requirements
 The R script has the following requirements:
 
-1. The following [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) should be downloaded and unzipped to your working directory. A <B>UCI HAR Dataset</B> folder should be created in the working directory.
+1. The following [data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) should be downloaded and unzipped to your working directory. After unzipping, a <B>UCI HAR Dataset</B> folder should be created in the working directory.
 2. The <B>reshape2</B> library
 
 ##Operation of script
